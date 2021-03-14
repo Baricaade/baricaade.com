@@ -2,7 +2,6 @@ body, html, * {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 img {
@@ -30,7 +29,7 @@ a:hover {
 }
 
 .copyright {
-    margin: 10%;
+    margin: 10% 10% 0% 10%;
 }
 
 .icons {
@@ -44,7 +43,6 @@ a:hover {
 @media (max-width: 720px) {
     body, html, * {
         text-align: center;
-        overflow: visible;
     }
 
     img {
@@ -68,5 +66,9 @@ a:hover {
 
     .icon-text {
         visibility: visible;
+    }
+
+    .copyright {
+        margin-bottom: 10%
     }
 }
